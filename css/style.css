@@ -1,0 +1,321 @@
+/* resets and override 
+=================== */
+
+
+/* link and type 
+=================== */
+body{
+	margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+.red {
+	background: rgb(189, 54, 47);
+}
+
+.brown{
+	background: rgb(229, 226, 222);
+}
+
+h1 {
+	text-transform: uppercase;
+    color: rgb(189, 54, 47);
+    font-size: 25px;
+}
+
+.code {
+	color: #08c;
+}
+
+.comment {
+	color: #555;
+}
+/* main layout 
+=================== */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*top bar*/
+.top-bar{
+	width: 1300px;
+	height: 35px;
+	background:rgb(229, 226, 222);
+}
+
+/*header section*/
+.header{
+	
+	height: 170px;
+	display: block;
+	margin: 10px;
+}
+
+.header .logo{
+	float: left;
+	width: 150px;
+}
+
+.header .sologan{
+	margin: 0 auto;
+    display: inline-block;
+	width: 730px;
+}
+
+.header .sologan p{
+	line-height: 20px;
+    color: #999;
+   
+}
+
+.description{
+	width: 220px;
+	float: right;
+	margin: 20px;
+}
+
+.description .info p{
+	border:1px dotted #FF5000; 
+	margin: -80px 30px 5px 15px;
+}
+
+.description .demo{
+	margin: 5px auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.description .demo p{
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	color: white;
+}
+
+.icon {
+	float: left;
+	
+}
+.icon img {
+	/*opacity: 6;*/
+}
+
+.icon:hover img {
+	/*opacity: 9;*/
+}
+/* line section*/
+.line {
+	width: 1200px;
+	height: 4px;
+	background:rgb(229, 226, 222);
+}
+/*wrapper-content section*/
+.wrapper-content{
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+	overflow: auto;
+}
+
+.wrapper-content .content{
+	width: 900px;
+	float: left;
+}
+
+.wrapper-content .sidebar {
+	width: 300px;
+	float: right;
+}
+
+.wrapper-content .sidebar .sidebar-intro {
+	background: rgb(229, 226, 222);
+}
+
+.install-mazzanine {
+	margin-left: 20px;
+	background: #222;
+	border-radius: 2px;
+	margin: 0 auto;
+	width: 260px;
+}
+
+.download-mazzanine h1{
+	color: black;
+	text-align: center;
+	margin: 20px 0px 20px 0px;
+}
+
+.install-mazzanine p{
+	margin-left: 15px;
+}
+
+.sidebar-intro .nav {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.sidebar-intro .nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.sidebar-intro .nav a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.sidebar-intro .image-bg {
+	background: rgb(189, 54, 47);
+	border-radius: 5px;
+	padding: 5px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* overview section*/
+.content .overview {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.overview p {
+	margin: 15px;
+}
+
+/* feature section*/
+.feature {
+	margin-top: 30px;
+}
+
+.view-all a {
+	text-decoration: none;
+	color: #999;
+	padding: 400px;
+}
+
+.view-all a:hover {
+	text-decoration: underline;
+	color: #999;
+}
+
+.feature .carosel-wrapper{
+	margin: 25px 10px 30px 10px;
+	background: rgb(229, 226, 222);
+
+}
+
+
+.arrow-left {
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.arrow-right {
+	float: right;
+	margin-right: 10px;
+	margin-top: -100px;
+}
+
+/* loves section*/
+.loves .user-love {
+	float: left;
+	margin: 30px 10px 0px 5px;
+	display: inline-block;
+	width: 45%;	
+}
+
+.loves .develop-love {
+	float: right;
+	display: inline-block;
+	margin: 30px 10px 0px 5px;
+	width: 45%;
+}
+
+.loves ul {
+	margin-top: 15px;
+}
+
+/* sidebar section*/
+
+/* blog section*/
+.blog {	
+	margin-top: 30px;
+}
+
+.blog table {
+	margin: 30px 0px 15px 0px;
+}
+.blog table .blog-content{
+	padding-right: 35px;
+}
+
+.blog table .btn-visit {
+	margin: 5px auto;
+	padding: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	text-transform: uppercase;
+    background: rgb(189, 54, 47);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*recent post section*/
+.recent-mention {
+	background: rgb(229, 226, 222);
+	margin-top: 30px;
+}
+
+.recent-mention h1{
+	padding-top: 30px;
+	padding-left: 50px;	
+}
+
+.recent-mention table {
+	margin: 30px 30px 15px 10px;
+}
+
+.recent-mention table td{
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+/* Footer section */
+.footer{
+	margin: 0 auto;
+	width: 1300px;
+	text-align: center;
+}
+
+.footer .credit{
+	margin: 40px 0px 20px 0px;
+}
+
+.footer .brach_iamge{
+	margin-bottom: 50px;
+}
+
+/* seconds layout 
+=================== */
+
+
+/* form elements 
+=================== */
+
+
+/* misc 
+=================== */
