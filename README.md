@@ -27,10 +27,11 @@
 	You may find the following resources handy:
 
 		[Django](https://www.djangoproject.com/)
-		[Python](https://www.python.org/)
+		An [example](http://url.com/ "Title")
 		
 		
 
 ##License
 
-	Mezzanine is [BSD Licensed](http://www.linfo.org/bsdlicense.html). It can be freely used, modified, and redistributed commercially.
+	Mezzanine is [BSD Licensed](http://www.linfo.org/bsdlicense.html). 
+	It can be freely used, modified, and redistributed commercially.
