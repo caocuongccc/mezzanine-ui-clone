@@ -1,33 +1,30 @@
-#Welcome to Mezzanine
+#Welcome to Mezzanine UI
 	
-	Mezzanine are an open source content management platform built using the Django framework.
+	Mezzanine UI are an free template HTML/ CSS. We created it for all people can download it for apply your website.
 
-	Mezzanine will always be available to anyone free of charge,
+	Mezzanine UI will always be available to anyone free of charge,
 	but its ongoing development costs its contributors 
 	a significant amount of time and resources. Please give back by donating to the project.
 
 ##Getting Started
 
-	Install Mezzanine at the command prompt if you haven't yet:
+	Install Mezzanine UI at the command prompt if you haven't yet:
 
-	1. Install from PyPI
-		$ pip install mezzanine
-
-	2. Create a project
-		$ mezzanine-project myproject
+	1. Create a project
+		$ mkdir myproject
 		$ cd myproject
 
-	3. Create a database
-		$ python manage.py createdb
+	2. Install from git repo
+		$ git clone https://github.com/caocuongccc/mezzanine-ui-clone.git
 
-	4. Run the web server
-		$ python manage.py runserver
+	3. Run the website
+		Go to mezzanine-ui-clone folder then double click on index.html
 
-	5. Follow the guidelines to start developing your application. 
+	4. Follow the guidelines to start developing your application. 
 	You may find the following resources handy:
 
 		[Django](https://www.djangoproject.com/)
-		An [example](http://url.com/ "Title")
+		[Python](https://www.python.org/)
 		
 		
 
