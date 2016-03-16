@@ -12,7 +12,7 @@ This template introduce about [Django](https://www.djangoproject.com) framework,
 ##Contributing
 1. Create your feature branch `git checkout -b feature/your-branch-name`
 2. Add any file changed `git add file-name`
-3. Commit your change `git commit -m "Update file-name`
+3. Commit your change `git commit -m "Update file-name"`
 4. Push your feature branch to server `git push origin your-feature-name`
 
 ##License
