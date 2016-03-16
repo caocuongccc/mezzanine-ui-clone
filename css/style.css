@@ -46,6 +46,10 @@ h1 {
 .comment {
 	color: #555;
 }
+
+.bold {
+	font-weight: bold;
+}
 /* main layout 
 =================== */
 .container {
@@ -97,6 +101,10 @@ h1 {
 	margin: 20px;
 }
 
+.description a {
+	text-decoration: none;
+}
+
 .description .info p{
 	border:1px dotted #FF5000; 
 	margin: -80px 30px 5px 15px;
@@ -119,7 +127,12 @@ h1 {
 
 .icon {
 	float: left;
+	opacity: 0.5;
 	
+}
+
+.icon:hover {
+	opacity: 1;
 }
 
 /* line section*/
