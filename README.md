@@ -17,4 +17,4 @@ This template introduce about [Django](https://www.djangoproject.com) framework,
 
 ##License
 
-Mezzanine is [BSD Licensed](http://www.linfo.org/bsdlicense.html). It can be freely used, modified, and redistributed commercially.	
+Mezzanine is [BSD Licensed](http://www.linfo.org/bsdlicense.html). It can be freely used, modified, and redistributed commercially.
