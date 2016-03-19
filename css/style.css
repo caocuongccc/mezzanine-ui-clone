@@ -246,7 +246,7 @@ h1 {
 a.view-all {
 	text-decoration: none;
 	color: #999;
-	padding: 400px;
+	padding-left: 400px;
 }
 
 a.view-all:hover {
