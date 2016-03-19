@@ -34,6 +34,10 @@ h1 {
 	color: #197499;
 }
 
+.tiny-font {
+	font-size: 13px;
+}
+
 .hint:hover {
 	text-decoration: underline;
 	color: #0088cc;;
