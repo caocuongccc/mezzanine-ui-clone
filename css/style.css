@@ -135,7 +135,7 @@ p{
 .icon {
 	float: left;
 	opacity: 0.5;
-	
+	margin-top: -5px;
 }
 
 .icon:hover {
@@ -184,7 +184,7 @@ p{
 	margin: 20px 0px 20px 0px;
 }
 
-.download-mazzanine .button-get{
+.button-get{
 	margin: 5px 5px;
 	padding: 10px;
 	border-radius: 10px;
@@ -193,8 +193,9 @@ p{
 .download-mazzanine a {
 	text-decoration: none;
 }
-.button-get p{
+.button-get a{
 	text-align: center;
+	margin-left: 20px;
 }
 
 .install-mazzanine p{
