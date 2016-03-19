@@ -54,6 +54,11 @@ h1 {
 .bold {
 	font-weight: bold;
 }
+
+p{
+	color: #777;
+	line-height: 25px;
+}
 /* main layout 
 =================== */
 .container {
@@ -224,12 +229,12 @@ h1 {
 	margin-bottom: 5px;
 }
 
-.donate-image {
-	text-align: center;
-}
-
 .done-info {
 	margin: 15px 15px 0px 0px;
+}
+
+.donate-image {
+	margin: 15px;
 }
 
 /* overview section*/
@@ -250,7 +255,7 @@ h1 {
 a.view-all {
 	text-decoration: none;
 	color: #999;
-	padding-left: 400px;
+	padding-left: 400px;	
 }
 
 a.view-all:hover {
@@ -261,7 +266,12 @@ a.view-all:hover {
 .feature .carosel-wrapper{
 	margin: 25px 10px 30px 10px;
 	background: rgb(229, 226, 222);
+	border-radius: 5px;
+	height: 220px;
+}
 
+.carosel {
+	margin-bottom: 10px;
 }
 
 .carosel img {
@@ -271,19 +281,23 @@ a.view-all:hover {
 
 .arrow-left {
 	float: left;
-	margin-left: 10px;
-	margin-top: 70px;
+	margin: 80px 10px 0px 0px;
 }
 
 .arrow-right {
 	float: right;
-	margin: -105px 0px 0px 10px;
+	margin: -110px 0px 0px 10px;
+}
+
+.arrow {
 	opacity: 0.5;
 }
 
-.arrow-right:hover {
+.arrow:hover {
 	opacity: 1;
 }
+
+
 /* loves section*/
 .loves .user-love {
 	float: left;
