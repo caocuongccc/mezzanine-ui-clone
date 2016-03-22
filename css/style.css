@@ -1,6 +1,6 @@
 /* resets and override 
 =================== */
-
+@import url('reset.css');
 
 /* link and type 
 =================== */
@@ -25,13 +25,17 @@ body{
 h1 {
 	text-transform: uppercase;
     color: rgb(189, 54, 47);
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 22px;
 }
 
 .hint {
 	text-decoration: none;
 	color: #197499;
+}
+
+.italic {
+	color: #999;
+	font-style: italic;
 }
 
 .tiny-font {
@@ -116,6 +120,7 @@ p{
 
 .sologan h1 {
 	margin: 15px 20px 0px 0px;
+	padding-left: 20px;
 }
 
 .description{
@@ -349,34 +354,40 @@ a.view-all:hover {
 
 .blog table .btn-visit {
 	margin: 5px auto;
-	padding: 10px;
-	border-radius: 10px;
+	padding: 5px;
+	border-radius: 5px;
 	display: inline-block;
 	text-transform: uppercase;
     background: rgb(189, 54, 47);
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
+    font-weight: bold;
 }
-
+ .blog table td{
+    padding-bottom: 30px;
+ }
 
 /*recent post section*/
 .recent-mention {
 	background: rgb(229, 226, 222);
-	margin-top: 30px;
+    width: 1300px;
+    height: 370px;
+    margin: 0 auto;
 }
 
-.recent-mention h1{
-	padding: 30px 50px 0px 0px;
+.recent-mention h1 {
+	padding: 40px 50px 5px;
 }
 
 .recent-mention table {
-	margin: 30px 30px 15px 10px;
+	margin: 20px 37px;
 }
 
-.recent-mention table td{
-	padding: 0px 40px 10px 0px;
+.recent-mention td {
+	padding: 10px 0px 10px 10px;
 }
+
 /* Footer section */
 .footer{
 	margin: 0 auto;
