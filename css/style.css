@@ -253,12 +253,12 @@ p{
 
 /* overview section*/
 .content .overview {
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 20px;
 }
 
 .overview p {
-	margin: 15px;
+	margin: 15px 0px 0px 0px;
 }
 
 /* feature section*/
