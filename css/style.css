@@ -64,7 +64,7 @@ h1 {
 
 p{
 	color: #777;
-	line-height: 25px;
+	line-height: 21px;
 }
 
 .icon {
@@ -178,8 +178,8 @@ p{
 
 .wrapper-content .sidebar .download-mazzanine {
 	background: rgb(229, 226, 222);
-	margin: 5px 0px 0px 0px;
-	padding-top: 5px;
+	margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 5px;
 	border-radius: 5px;
 }
 
@@ -219,7 +219,7 @@ p{
 	margin-top: 20px;
 }
 
-.sidebar-intro .nav a{
+.sidebar-intro .nav .nav-text{
 	text-decoration: none;
 	text-transform: uppercase;
 	color: black;
@@ -274,7 +274,7 @@ p{
 a.view-all {
 	text-decoration: none;
 	color: #999;
-	padding-left: 400px;	
+	margin-left: 433px;	
 }
 
 a.view-all:hover {
@@ -294,13 +294,14 @@ a.view-all:hover {
 }
 
 .carosel img {
-	padding-top: 25px;
-	padding-left: 35px;
+	margin: 20px 30px 5px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #666;
 }
 
 .arrow-left {
 	float: left;
-	margin: 80px 10px 0px 0px;
+	margin: 80px 31px 0px 0px;
 }
 
 .arrow-right {
@@ -310,6 +311,14 @@ a.view-all:hover {
 
 .arrow {
 	opacity: 0.5;
+}
+
+.arrow-left img {
+	margin-left: 20px;
+}
+
+.arrow-right img {
+	margin-right: 20px;
 }
 
 .arrow:hover {
@@ -372,7 +381,7 @@ a.view-all:hover {
 .recent-mention {
 	background: rgb(229, 226, 222);
     width: 1300px;
-    height: 370px;
+    height: 400px;
     margin: 0 auto;
 }
 
@@ -385,7 +394,7 @@ a.view-all:hover {
 }
 
 .recent-mention td {
-	padding: 10px 0px 10px 10px;
+	padding: 5px 8px 8px 11px;
 }
 
 /* Footer section */
