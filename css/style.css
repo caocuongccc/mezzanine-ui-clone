@@ -138,9 +138,9 @@ p{
 }
 
 .description .demo{
-	margin: 5px auto;
-	padding: 10px;
-	border-radius: 5px;
+	margin: 16px auto;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .description .demo p{
@@ -150,6 +150,20 @@ p{
 .uppercase {
 	text-transform: uppercase;
 	color: white;
+}
+
+.black {
+	color: #333333;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.fork {
+	float: right;
+    margin-top: -85px;
+    margin-right: -280px;
 }
 
 /* line section*/
@@ -322,7 +336,8 @@ a.view-all:hover {
 }
 
 .arrow:hover {
-	opacity: 1;
+	opacity: 3;
+	cursor: pointer;
 }
 
 
