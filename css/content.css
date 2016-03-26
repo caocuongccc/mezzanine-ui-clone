@@ -15,12 +15,12 @@
 }
 
     .wrapper-content .content{
-        width: 970px;
+        width: 960px;
         float: left;
     }
 
     .wrapper-content aside {
-        width: 230px;
+        width: 240px;
         float: right;
     }
 
@@ -34,30 +34,33 @@
         }
 
     .install-mazzanine {
-        margin-left: 20px;
+        margin: 0px 10px 0px 5px;
         background: #222;
         border-radius: 3px;
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
-        margin: 0 auto;
-        width: 220px;
     }
-        .install-mazzanine p{
-            margin-left: 15px;
+        .install-mazzanine .break-line-comment{
+            padding-top: 15px;
         }
 
-    .download-mazzanine a {
-        text-decoration: none;
-    }
+        .install-mazzanine .text{
+            margin-left: 15px;
+            font-size: 12px;
+        }
 
-    .download-mazzanine h1{
+        .install-mazzanine .break-line-code {
+            padding-bottom: 15px;
+        }
+
+    .download-mazzanine .quick-start{
         color: black;
         text-align: center;
         margin: 20px 0px 20px 0px;
     }
 
     .button-get{
-        margin: 5px 5px;
+        margin: 5px 10px 5px 8px;
         padding: 10px;
         border-radius: 5px;
         -moz-border-radius: 5px;
@@ -69,22 +72,38 @@
         }
 
     .sidebar-intro .nav {
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
 
-        .sidebar-intro .nav .nav-text{
+    .nav ul {
+        list-style: none;
+        margin-top: 10px
+}
+
+    .nav li {
+        font-weight: bold;
+    }
+
+        .nav li a{
+            color: black;
+            font-size: 16px;
             text-decoration: none;
             text-transform: uppercase;
-            color: black;
-            font-size: 14px;
-            margin-left: 10px;
+        }
+
+        .nav li img {
+            margin-right: 10px;
+        }
+
+        .nav li a:hover{
+            text-decoration: underline;
             font-weight: bold;
         }
 
-        .sidebar-intro .nav a:hover{
-            text-decoration: underline;
-            font-weight: bold;
+        .nav .nav-text {
+            margin-left: 10px;
+            margin-top: 10px;
         }
 
     .sidebar-intro .image-bg {
@@ -95,7 +114,8 @@
         padding: 5px;
         display: inline-block;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 5px;     
+        vertical-align: middle;
     }
 
     .done-info {
@@ -209,11 +229,17 @@
         float: right;
     }
 
-.loves ul {
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 30px;
-}
+    .loves ul {
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    .loves li {
+        margin-bottom: 0.6em;
+        color: #777;
+    }
+
 
 /* sidebar section*/
 
@@ -226,7 +252,7 @@
 
     .blog .btn-visit {
         margin: 5px auto;
-        padding: 5px;
+        padding: 6px 12px 6px 12px;
         text-transform: uppercase;
         display: inline-block;
         background: rgb(189, 54, 47);
