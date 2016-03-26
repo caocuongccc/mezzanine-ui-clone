@@ -1,0 +1,86 @@
+/*header section*/
+header{
+    height: 170px;
+    display: block;
+    margin: 50px 10px 30px 10px;
+}
+
+        header .logo {
+            float: left;
+            width: 150px;
+        }
+
+        header .sologan {
+            margin: 0 auto;
+            display: inline-block;
+            width: 730px;
+        }
+            header .sologan h1 {
+                margin: 15px 20px 0px 0px;
+                padding-left: 20px;
+            }
+
+            header .sologan p {
+                line-height: 20px;
+                color: #999;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+
+.description{
+    width: 220px;
+    float: right;
+}
+
+    .description a {
+        text-decoration: none;
+    }
+
+    .description .info p{
+        border:1px dotted #FF5000; 
+        margin: -50px 30px 5px 15px;
+    }
+
+    .description .demo{
+        margin: 16px auto;
+        padding: 10px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+        .description .demo p{
+            text-align: center;
+        }
+
+.uppercase {
+    text-transform: uppercase;
+    color: white;
+}
+
+.fork {
+    float: right;
+    margin-top: -85px;
+    margin-right: -280px;
+}
+
+/* line section*/
+.line {
+    width: 1200px;
+    height: 4px;
+    background:rgb(229, 226, 222);
+}
+
+/* Footer section */
+footer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+    footer .credit{
+        margin: 40px 0px 20px 0px;
+    }
+
+    footer .branch-image{
+        margin-bottom: 50px;
+    }

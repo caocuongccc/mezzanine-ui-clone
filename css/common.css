@@ -1,0 +1,84 @@
+
+/* link and type 
+=================== */
+
+body {
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.red {
+    background: rgb(189, 54, 47);
+}
+
+.brown{
+    background: rgb(229, 226, 222);
+}
+
+.black {
+    color: #333333;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(189, 54, 47);
+    font-size: 22px;
+}
+
+.hint {
+    text-decoration: none;
+    color: #197499;
+}
+
+.italic {
+    color: #999;
+    font-style: italic;
+}
+
+.tiny-font {
+    font-size: 13px;
+}
+
+.hint:hover {
+    text-decoration: underline;
+    color: #0088cc;;
+}
+
+.code {
+    color: #08c;
+    font-size: 13px;
+}
+
+.comment {
+    color: #555;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p{
+    color: #777;
+    line-height: 21px;
+}
+
+.icon {
+    float: left;
+    opacity: 0.5;
+    margin-top: -3px;
+
+}
+
+.icon:hover {
+    opacity: 1;
+}
