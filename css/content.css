@@ -2,25 +2,24 @@
 /* main layout 
 =================== */
 .container {
-    width: 1200px;
+    border-top: 40px solid rgb(229, 226, 222);
     margin: 0 auto;
 }
 
 /*wrapper-content section*/
 .wrapper-content{
-    width: 1200px;
-    margin: 0 auto;
-    display: block;
+    margin: -20px 50px;
     overflow: auto;
 }
 
     .wrapper-content .content{
-        width: 960px;
+        width: 68em;
         float: left;
+        margin-top: -30px;
     }
 
     .wrapper-content aside {
-        width: 240px;
+        width: 17em;
         float: right;
     }
 
@@ -66,10 +65,6 @@
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
     }
-
-        .button-get a{
-        text-align: center;
-        }
 
     .sidebar-intro .nav {
         margin-top: 15px;
@@ -118,11 +113,11 @@
         vertical-align: middle;
     }
 
-    .done-info {
+    .donate-info {
         margin: 15px 15px 0px 0px;
     }
 
-        .done-info p{
+        .donate-info .donate-info{
             font-size: 13px;
             font-style: italic;
             margin-left: 10px;
@@ -138,8 +133,10 @@
     margin-right: 20px;
 }
 
-    .overview p {
-        margin: 15px 0px 0px 0px;
+    article {
+        margin-bottom: 2em;
+        margin-top: 2em;
+        color: #999;
     }
 
 /* feature section*/
@@ -252,12 +249,12 @@
 
     .blog .btn-visit {
         margin: 5px auto;
-        padding: 6px 12px 6px 12px;
+        padding: 5px 12px 5px 12px;
         text-transform: uppercase;
         display: inline-block;
         background: rgb(189, 54, 47);
         color: white;
-        font-size: 17px;
+        font-size: 16px;
         text-decoration: none;
         font-weight: bold;
         border-radius: 5px;

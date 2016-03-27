@@ -9,10 +9,6 @@
 </head>
 <body>
     <!-- container div -->
-    <div class="top-bar"></div>
-    <!-- end container div -->
-
-    <!-- container div -->
     <div class="container">
         <!-- header div -->
         <header>
@@ -24,8 +20,8 @@
 
             <!-- sologan div -->
             <div class="sologan">
-                <h1>An open source content management <br>platform built using the django framework</h1>
-                <p><em>Like Linux and Python, Mezzanine just feels right</em><br>- <span ><a href="https://twitter.com/emilepetrone" class="hint">Phil Hughes</a></span>, Linux For Dummies author, <span ><a class="hint" href="http://www.linuxjournal.com/">The Linux Journal</a></span> columnist</p>
+                <h1 class="sologan-header">An open source content management platform built using the django framework</h1>
+                <p class="sologan-content"><span class="sologan-intro">Like Linux and Python, Mezzanine just feels right</span> <span class="sologan-author">-<a href="https://twitter.com/emilepetrone" class="hint">Phil Hughes</a>, Linux For Dummies author,<a class="hint" href="http://www.linuxjournal.com/">The Linux Journal</a> columnist</span></p>
             </div>
             <!-- end sologan div -->
 
@@ -33,7 +29,7 @@
             <div class="description">
                 <!-- infor div -->
                 <div class="infor">
-                    <p>Mezzanine is <span><a class="hint" href="http://www.linfo.org/bsdlicense.html">BSD Licensed</a></span>. It can be freely used, modified, and redistributed commercially.</p>
+                    <p class="des-content">Mezzanine is <span><a class="hint" href="http://www.linfo.org/bsdlicense.html">BSD Licensed</a></span>. It can be freely used, modified, and redistributed commercially.</p>
                 </div>
                 <!-- end infor div -->
 
@@ -47,17 +43,13 @@
                 <!-- end demo div -->
 
                 </a>
-                <div class="demo brown"><p class="black"><span class="pointer">User:</span> <span class="bold">demo</span><span class="pointer"> Pass:</span> <span class="bold">demo</span></p></div>
+                <div class="demo brown"><p class="black demo-text"><span class="pointer">User:</span> <span class="bold">demo</span><span class="pointer"> Pass:</span> <span class="bold">demo</span></p></div>
             </div>
             <!-- end description div -->
             <a href="http://github.com/stephenmcd/mezzanine"><img src="images/forkme_right_gray_6d6d6d.png" alt="fork me" class="fork" /></a>
 
         </header>
         <!-- end header div -->
-
-        <!-- line div -->
-        <div class="line"></div>
-        <!-- end line div -->
 
         <!-- wrapper-content div -->
         <div class="wrapper-content">
@@ -68,18 +60,18 @@
                 <!-- overview div -->
                 <div class="overview">
                     <h1>Overview</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    <article><a href="http://fr.lipsum.com/" class="hint">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. <a href="http://fr.lipsum.com/" class="hint">Duis aute</a> irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+                    <article><a href="http://fr.lipsum.com/" class="hint">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    cillum dolore eu fugiat nulla pariatur. <a href="http://fr.lipsum.com/" class="hint">Excepteur</a> sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
                 </div>
                 <!-- end overview div -->
 
@@ -172,7 +164,7 @@
                         
                         <div class="button-get red">
                             <a href="http://mezzanine.jupo.org/#"><img src="images/glyphicons_181_download_alt.png" class="icon" /></a>
-                            <a href="http://mezzanine.jupo.org/#" class="uppercase">Get mezzanine 4.1.0</a>
+                            <a href="http://mezzanine.jupo.org/#" class="uppercase align-center">Get mezzanine 4.1.0</a>
                         </div>
                         <h1 class="quick-start">Quick start</h1>
 
@@ -214,7 +206,7 @@
                     <div class="donate">
                         
                         <!-- donate-info div -->
-                        <div class="done-info italic">
+                        <div class="donate-info italic">
                             <p>Mezzanine will always be available to anyone free of charge, but its ongoing development costs its contributors a significant amount of time and resources. Please give back by donating to the project.</p>
                         </div>
                         <!-- end donate-info div -->
