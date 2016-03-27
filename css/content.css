@@ -216,7 +216,7 @@
 
 .loves .user-love {
     margin: 30px 10px 0px 5px;
-    width: 45%; 
+    width: 35em; 
 }
     .user-love .left {
         float: left;
@@ -241,10 +241,10 @@
 /* sidebar section*/
 
 /* blog section*/
-
 .blog {
     overflow: auto;
-    width: 1200px;
+    width: 85.8em;
+    padding-bottom: 30px;
 }
 
     .blog .btn-visit {
@@ -278,7 +278,6 @@
 .recent-mention {
     margin-top: 30px;
     background: rgb(229, 226, 222);
-    width: 1300px;
     overflow: auto;
 }
 
@@ -288,7 +287,7 @@
 
     .mention-content {
         text-align: left;
-        width: 27em;
+        width: 26em;
         float: left;
         margin-top: 2em;
         margin-left: 3.6em;
